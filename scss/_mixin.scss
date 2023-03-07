@@ -1,0 +1,21 @@
+@mixin title_text {
+  background-color: $topic_color;
+  height: 200px;
+  text-align: center;
+  padding-top: 80px;
+  color: $text_color;
+  font-weight: bold;
+  font-size: 48px;
+}
+@mixin h3_text {
+  color: $text_color;
+  font-weight: bold;
+  font-size: 20px;
+}
+@mixin topic2 {
+  min-width: 50%;
+  border-radius: 5%;
+  padding: 50px;
+
+  background-color: $topic_color;
+}
