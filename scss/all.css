@@ -472,6 +472,7 @@ table {
   border: solid 1px #eaf0ed;
   color: #47634d;
   font-weight: bold;
+  cursor: pointer;
 }
 #topic10 .dessert_list .list_btn:hover {
   background-color: #eaf0ed;

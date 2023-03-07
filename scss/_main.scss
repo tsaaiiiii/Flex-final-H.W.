@@ -331,6 +331,8 @@
       border: solid 1px $topic_color;
       color: $text_color;
       font-weight: bold;
+      cursor: pointer;
+
       &:hover {
         background-color: $topic_color;
       }
