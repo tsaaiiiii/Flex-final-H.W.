@@ -135,6 +135,7 @@ table {
 
 * {
   box-sizing: border-box;
+  max-width: 1430px;
 }
 * h2 {
   text-align: center;
@@ -210,7 +211,7 @@ table {
   background-color: #eaf0ed;
 }
 #topic3 .menu img {
-  padding: 50px 20px 10px 20px;
+  padding: 40px 20px 10px 20px;
 }
 #topic3 .menu .menu_select {
   width: 220px;
@@ -259,7 +260,7 @@ table {
   font-weight: bold;
 }
 #topic4 .content {
-  margin: 50px 200px;
+  margin: 50px 350px;
 }
 #topic4 .content_doc {
   width: 700px;
@@ -286,7 +287,7 @@ table {
 }
 #topic4 .footer_select .footer_btn {
   padding: 30px;
-  padding-right: 10px;
+  padding-right: 40px;
   cursor: pointer;
 }
 
@@ -456,4 +457,57 @@ table {
 #topic9 .cart_product .cart_product_text h3 {
   font-weight: bold;
   margin-top: 5px;
+}
+
+#topic10 .dessertAll {
+  display: flex;
+}
+#topic10 .dessert_list {
+  margin-left: 80px;
+}
+#topic10 .dessert_list .list_btn {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 60px;
+  border: solid 1px #eaf0ed;
+  color: #47634d;
+  font-weight: bold;
+}
+#topic10 .dessert_list .list_btn:hover {
+  background-color: #eaf0ed;
+}
+#topic10 .dessert_list .list_btn.btn1 {
+  background-color: #47634d;
+  color: #fff;
+}
+#topic10 .dessert_produce {
+  display: flex;
+  flex-wrap: wrap;
+}
+#topic10 .produce {
+  margin-left: 30px;
+  border: solid 1px #eaf0ed;
+  margin-bottom: 30px;
+}
+#topic10 .produce .dessert_text {
+  display: flex;
+  text-align: center;
+}
+#topic10 .produce .dessert_text .text {
+  color: #47634d;
+  padding: 20px 50px;
+}
+#topic10 .produce .dessert_text .text.text2 {
+  font-weight: bold;
+  border-left: solid 1px #eaf0ed;
+  padding: 20px;
+  padding-left: 30px;
+}
+#topic10 .produce .btn_plusCart {
+  color: #47634d;
+  font-weight: bold;
+  background-color: #eaf0ed;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=all.css.map */

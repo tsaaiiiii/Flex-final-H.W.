@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  max-width: 1430px;
+
   h2 {
     text-align: center;
     font-size: 32px;
@@ -63,7 +65,7 @@
   .menu {
     background-color: $topic_color;
     img {
-      padding: 50px 20px 10px 20px;
+      padding: 40px 20px 10px 20px;
     }
 
     .menu_select {
@@ -115,7 +117,7 @@
     font-weight: bold;
   }
   .content {
-    margin: 50px 200px;
+    margin: 50px 350px;
   }
   .content_doc {
     width: 700px;
@@ -139,7 +141,7 @@
     justify-content: center;
     .footer_btn {
       padding: 30px;
-      padding-right: 10px;
+      padding-right: 40px;
       cursor: pointer;
     }
   }
@@ -312,6 +314,62 @@
         font-weight: bold;
         margin-top: 5px;
       }
+    }
+  }
+}
+
+#topic10 {
+  .dessertAll {
+    display: flex;
+  }
+  .dessert_list {
+    margin-left: 80px;
+    .list_btn {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px 60px;
+      border: solid 1px $topic_color;
+      color: $text_color;
+      font-weight: bold;
+      &:hover {
+        background-color: $topic_color;
+      }
+    }
+    .list_btn.btn1 {
+      background-color: $text_color;
+      color: #fff;
+    }
+  }
+  .dessert_produce {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .produce {
+    margin-left: 30px;
+    border: solid 1px $topic_color;
+    margin-bottom: 30px;
+    .dessert_text {
+      display: flex;
+      text-align: center;
+
+      .text {
+        color: $text_color;
+        padding: 20px 50px;
+      }
+      .text.text2 {
+        font-weight: bold;
+        border-left: solid 1px $topic_color;
+        padding: 20px;
+        padding-left: 30px;
+      }
+    }
+    .btn_plusCart {
+      color: $text_color;
+      font-weight: bold;
+      background-color: $topic_color;
+      text-align: center;
+      padding: 20px;
+      cursor: pointer;
     }
   }
 }
